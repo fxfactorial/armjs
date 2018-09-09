@@ -3,7 +3,8 @@ import sys
 
 
 def program(value):
-    return math.cos(value) + math.sin(value)
+    c = value + 1
+    return math.cos(c) + math.sin(c)
 
 
 if __name__ == "__main__":
