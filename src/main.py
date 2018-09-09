@@ -8,6 +8,8 @@ def another_function():
 
 def program(value):
     c = value + 1
+    d = c * 2
+    a = d * 4
     return math.cos(c) + math.sin(c)
 
 
